@@ -1,3 +1,6 @@
+:: For creating a hidden admin
+:: Handy for software or hardware that require user credentials.
+
 @echo off
 net user **UserName** **Password** /add
 net localgroup administrators **UserName** /add
